@@ -1,0 +1,14 @@
+{
+  "name": "csscompare",
+  "version": "1.0.0",
+  "description": "A site for comparing css frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
