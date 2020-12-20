@@ -3,15 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ stylesheetSource }}">
+    <link rel="stylesheet" href="/layout.css">
+    {{ stylesheetSource }}
     <title>Document</title>
 </head>
 <body>
+    <h1 class="{{ baseClass }} {{ headerClass }}"> First Header </h1>
+    <h2 class="{{ baseClass }} {{ headerClass }}"> Second Header </h2>
+    <h3 class="{{ baseClass }} {{ headerClass }}"> Third Header </h3>
+    <h4 class="{{ baseClass }} {{ headerClass }}"> Fourth Header </h4>
+    <h5 class="{{ baseClass }} {{ headerClass }}"> Fifth Header </h5>
 
 
     <h1 class="{{ baseClass }} {{ headerClass }}">Buttons</h1>
-    <button class="{{ baseClass }} {{ buttonClass }}">
-        Button
-    </button>
+    <ul class="layout-buttons">
+        <button class="{{ baseClass }} {{ buttonClass }} {{ buttonDefault }}">
+            Button
+        </button>
+
+        <button class="{{ baseClass }} {{ buttonClass }} {{ buttonAlternate }}">
+            Alternate
+        </button>
+
+        <button class="{{ baseClass }} {{ buttonClass }} {{ buttonDefault }} {{ buttonDisabled }}" disabled>
+            Disabled
+        </button>
+    </ul>
+    
+    {{ jsSource }}
+
 </body>
 </html>
