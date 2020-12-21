@@ -14,27 +14,37 @@
         {%- endfor -%}
     </div>
 
-    <h1 class="{{ baseClass }} {{ headerClass }}"> First Header </h1>
-    <h2 class="{{ baseClass }} {{ headerClass }}"> Second Header </h2>
-    <h3 class="{{ baseClass }} {{ headerClass }}"> Third Header </h3>
-    <h4 class="{{ baseClass }} {{ headerClass }}"> Fourth Header </h4>
-    <h5 class="{{ baseClass }} {{ headerClass }}"> Fifth Header </h5>
+    <main class="layout">
+        <div class="left-content">
+            <h1 class="{{ baseClass }} {{ headerClass }}"> First Header </h1>
+            <h2 class="{{ baseClass }} {{ headerClass }}"> Second Header </h2>
+            <h3 class="{{ baseClass }} {{ headerClass }}"> Third Header </h3>
+            <h4 class="{{ baseClass }} {{ headerClass }}"> Fourth Header </h4>
+            <h5 class="{{ baseClass }} {{ headerClass }}"> Fifth Header </h5>
 
+            <hr class="{{ baseClass }} {{ divider }}">
+        </div>
 
-    <h1 class="{{ baseClass }} {{ headerClass }}">Buttons</h1>
-    <ul class="layout-buttons">
-        <button class="{{ baseClass }} {{ buttonClass }} {{ buttonDefault }}">
-            Button
-        </button>
+        
+        <div class="right-content">
+            <h1 class="{{ baseClass }} {{ headerClass }}">Buttons</h1>
+            <ul class="layout-buttons">
+                <button class="{{ baseClass }} {{ buttonClass }} {{ buttonDefault }}">
+                    Button
+                </button>
 
-        <button class="{{ baseClass }} {{ buttonClass }} {{ buttonAlternate }}">
-            Alternate
-        </button>
+                <button class="{{ baseClass }} {{ buttonClass }} {{ buttonAlternate }}">
+                    Alternate
+                </button>
 
-        <button class="{{ baseClass }} {{ buttonClass }} {{ buttonDefault }} {{ buttonDisabled }}" disabled>
-            Disabled
-        </button>
-    </ul>
+                <button class="{{ baseClass }} {{ buttonClass }} {{ buttonDefault }} {{ buttonDisabled }}" disabled>
+                    Disabled
+                </button>
+            </ul>
+        </div>
+    </main>
+
+    
     
     {{ jsSource }}
 

@@ -9,4 +9,5 @@ buttonClass: button
 buttonDefault: primary
 buttonAlternate: basic
 buttonDisabled: disabled
+divider: section divider
 ---
