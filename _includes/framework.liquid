@@ -8,6 +8,12 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="nav">
+        {%- for framework in collections.frameworks -%}
+            <a href="{{ framework.url }}">{{ framework.data.name }}</a>
+        {%- endfor -%}
+    </div>
+
     <h1 class="{{ baseClass }} {{ headerClass }}"> First Header </h1>
     <h2 class="{{ baseClass }} {{ headerClass }}"> Second Header </h2>
     <h3 class="{{ baseClass }} {{ headerClass }}"> Third Header </h3>
