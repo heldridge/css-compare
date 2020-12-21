@@ -45,6 +45,9 @@ main.layout {
     }
 }
 
+.left-content, .right-content {
+    width: 40%;
+}
 
 
 ul.layout {

@@ -18,6 +18,21 @@
 
     <main class="layout">
         <div class="left-content">
+            <h2 class="{{ headerClass }}"> Text </h2>
+
+            <p>
+                This is what text looks like.
+                This is <b>bold</b> text.
+                This text is <i>italic</i>.
+                This is some <u>underlined</u> text.
+                Here is some code: <code>print("hello world!")</code>
+            </p>
+            <p>
+                Finally, <a href="https://www.example.com">this is a link</a>
+            </p>
+            
+            <hr class="{{ divider }}">
+
             <h1 class="{{ headerClass }}"> First Header </h1>
             <h2 class="{{ headerClass }}"> Second Header </h2>
             <h3 class="{{ headerClass }}"> Third Header </h3>
@@ -25,6 +40,27 @@
             <h5 class="{{ headerClass }}"> Fifth Header </h5>
 
             <hr class="{{ divider }}">
+
+            {% if do_subheader %}
+            <h2 class="{{ headerClass }}">
+                Header with a Secondary Heading
+                <div class="{{ subheader }}">You can put whatever you want in a subheader</div>
+            </h2>
+            {% else %}
+
+            <p>This framework doesn't have a built-in subheader</p>
+
+            {% endif %}
+            
+            <blockquote class={{ blockquote }}>
+                Here is an block quote.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Fusce ac lacus ac nisl pharetra dignissim.
+                In at neque accumsan, eleifend nisl ut, finibus arcu.
+                Vivamus eu turpis nisl. 
+            </blockquote>
+            
+
 
         </div>
 

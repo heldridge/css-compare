@@ -10,6 +10,8 @@ buttonAlternate: basic
 buttonDisabled: disabled
 divider: ui section divider
 headerClass: ui header
+subheader: sub header
+do_subheader: true
 form: "ui form"
 input-block: ui labeled input
 input: ""

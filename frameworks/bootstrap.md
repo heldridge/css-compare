@@ -8,7 +8,7 @@ buttonDefault: btn-primary
 buttonAlternate: btn-outline-secondary
 divider: ""
 headerClass: ""
-subHeaderClass: ""
+do-subheader: false
 form: ""
 input-block: ""
 input: form-control
@@ -22,5 +22,6 @@ checkbox: "form-check-input"
 checkbox-label: "form-check-label"
 textarea-block: "form-group"
 textarea: "form-control"
+blockquote: "blockquote"
 extraJS: ""
 ---

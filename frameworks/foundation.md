@@ -9,6 +9,8 @@ buttonAlternate: round
 buttonDisabled: disabled
 divider: ""
 headerClass: ""
+subheader: subheader
+do_subheader: true
 subHeaderClass: ""
 input-block: input-field
 input: ""

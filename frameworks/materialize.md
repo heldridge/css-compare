@@ -11,7 +11,8 @@ buttonAlternate: waves-effect waves-teal btn-flat
 buttonDisabled: btn disabled
 divider: ""
 headerClass: ""
-subHeaderClass: ""
+do_subheader: false
+
 form: ""
 input-block: input-field
 input: ""
