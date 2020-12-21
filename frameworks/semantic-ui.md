@@ -30,4 +30,5 @@ extraJS: |
     $('select.dropdown').dropdown();
     $('.ui.radio.checkbox').checkbox();
     $('.ui.checkbox').checkbox();
+switch-block: ui toggle checkbox
 ---

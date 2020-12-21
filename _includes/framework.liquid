@@ -159,6 +159,14 @@
                     </label>
                 {% endif %}
 
+                {% if switch_html %}
+                    {{ switch_html }}
+                {% else %}
+                    <div class="{{ switch-block }}">
+                        <input type="checkbox" name="switch" id="switchExample" class="{{ switch-input }}">
+                        <label for="switch" class={{ switch-label }}>Switch</label>
+                    </div>
+                {% endif %}
                 
                 <div class="layout textarea {{ textarea-block }}">
                     <label for="textareaExample">Text Area</label>

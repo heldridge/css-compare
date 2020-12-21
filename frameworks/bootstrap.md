@@ -25,4 +25,7 @@ textarea: "form-control"
 blockquote: "blockquote"
 badge: badge bg-primary
 extraJS: ""
+switch-block: form-check form-switch
+switch-input: form-check-input
+switch-label: form-check-label
 ---

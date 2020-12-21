@@ -26,4 +26,14 @@ extraJS: |
     $(document).ready(function(){
         $('select').formSelect();
     });
+switch_html: |
+    <p>Switch</p>
+    <div class="switch">
+        <label>
+        Off
+        <input type="checkbox">
+        <span class="lever"></span>
+        On
+        </label>
+    </div>
 ---
