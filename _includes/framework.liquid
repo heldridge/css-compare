@@ -10,7 +10,9 @@
 <body>
     <div id="nav">
         {%- for framework in collections.frameworks -%}
-            <a href="{{ framework.url }}">{{ framework.data.name }}</a>
+            <a href="{{ framework.url }}" {% if framework.data.name == name %}class="nav-selected"{% endif %}>
+                {{ framework.data.name }}
+            </a>
         {%- endfor -%}
     </div>
 
