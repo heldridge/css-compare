@@ -6,4 +6,15 @@ baseClass: " "
 buttonClass: btn
 buttonDefault: btn-primary
 buttonAlternate: btn-outline-secondary
+divider: ""
+headerClass: ""
+subHeaderClass: ""
+input-block: ""
+input: form-control
+label: form-label
+radio-block: form-check
+radio-input: form-check-input
+radio-label: form-check-label
+select: form-select
+extraJS: ""
 ---

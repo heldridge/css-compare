@@ -25,3 +25,12 @@ main.layout {
     display: flex !important;
     justify-content: space-around !important;
 }
+
+ul.layout {
+    padding: 0;
+}
+
+.radio.layout {
+    display: flex;
+    flex-direction: column;
+}

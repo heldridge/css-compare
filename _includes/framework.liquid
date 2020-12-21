@@ -16,37 +16,75 @@
 
     <main class="layout">
         <div class="left-content">
-            <h1 class="{{ baseClass }} {{ headerClass }}"> First Header </h1>
-            <h2 class="{{ baseClass }} {{ headerClass }}"> Second Header </h2>
-            <h3 class="{{ baseClass }} {{ headerClass }}"> Third Header </h3>
-            <h4 class="{{ baseClass }} {{ headerClass }}"> Fourth Header </h4>
-            <h5 class="{{ baseClass }} {{ headerClass }}"> Fifth Header </h5>
+            <h1 class="{{ headerClass }}"> First Header </h1>
+            <h2 class="{{ headerClass }}"> Second Header </h2>
+            <h3 class="{{ headerClass }}"> Third Header </h3>
+            <h4 class="{{ headerClass }}"> Fourth Header </h4>
+            <h5 class="{{ headerClass }}"> Fifth Header </h5>
 
-            <hr class="{{ baseClass }} {{ divider }}">
+            <hr class="{{ divider }}">
+
         </div>
 
         
         <div class="right-content">
-            <h1 class="{{ baseClass }} {{ headerClass }}">Buttons</h1>
-            <ul class="layout-buttons">
-                <button class="{{ baseClass }} {{ buttonClass }} {{ buttonDefault }}">
+            <h1 class="{{ headerClass }}">Buttons</h1>
+            <ul class="layout">
+                <button class="{{ buttonClass }} {{ buttonDefault }}">
                     Button
                 </button>
 
-                <button class="{{ baseClass }} {{ buttonClass }} {{ buttonAlternate }}">
+                <button class="{{ buttonClass }} {{ buttonAlternate }}">
                     Alternate
                 </button>
 
-                <button class="{{ baseClass }} {{ buttonClass }} {{ buttonDefault }} {{ buttonDisabled }}" disabled>
+                <button class="{{ buttonClass }} {{ buttonDefault }} {{ buttonDisabled }}" disabled>
                     Disabled
                 </button>
             </ul>
+
+            <hr class="{{ divider }}">
+
+            <h1 class="{{ headerClass }}">Forms</h1>
+
+            <div class="{{ input-block }}">
+                <label for="exampleInput1" class="{{ label }}">Input</label>
+                <input type="text" id="exampleInput1" class="{{ input }}">
+            </div>
+
+            <select class="{{ select }}">
+                <option value="0">Select</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+
+            <div class="radio layout">
+                <div class="{{ radio-block }}">
+                    <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioA">
+                    <label class="{{ radio-label }}" for="radioA">Apples</label>
+                </div>
+                <div class="{{ radio-block }}">
+                    <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioB">
+                    <label class="{{ radio-label }}" for="radioB">Oranges</label>
+                </div>
+                <div class="{{ radio-block }}">
+                    <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioC">
+                    <label class="{{ radio-label }}" for="radioC">Pears</label>
+                </div>
+                <div class="{{ radio-block }}">
+                    <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioD">
+                    <label class="{{ radio-label }}" for="radioD">Grapefruit</label>
+                </div>
+            </div>
         </div>
     </main>
 
-    
-    
     {{ jsSource }}
+
+    <script>
+    {{ extraJS }}
+    </script>
 
 </body>
 </html>

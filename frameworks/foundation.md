@@ -7,4 +7,9 @@ buttonClass: button
 buttonDefault: " "
 buttonAlternate: round
 buttonDisabled: disabled
+input-block: input-field
+input: ""
+label: ""
+select: ""
+extraJS: ""
 ---
