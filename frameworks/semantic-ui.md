@@ -10,6 +10,7 @@ buttonAlternate: basic
 buttonDisabled: disabled
 divider: ui section divider
 headerClass: ui header
+form: "ui form"
 input-block: ui labeled input
 input: ""
 label: ui label
@@ -17,7 +18,13 @@ select: ui fluid dropdown
 radio-block: ui radio checkbox
 radio-input: ""
 radio-label: ""
+checkbox-block: "ui checkbox"
+checkbox: ""
+checkbox-label: ""
+textarea-block: ""
+textarea: ""
 extraJS: |
     $('select.dropdown').dropdown();
     $('.ui.radio.checkbox').checkbox();
+    $('.ui.checkbox').checkbox();
 ---

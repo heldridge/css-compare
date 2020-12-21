@@ -9,10 +9,17 @@ buttonDefault: waves-effect waves-light btn
 buttonPrimary: waves-effect waves-light btn
 buttonAlternate: waves-effect waves-teal btn-flat
 buttonDisabled: btn disabled
+divider: ""
+headerClass: ""
+subHeaderClass: ""
+form: ""
 input-block: input-field
 input: ""
 label: ""
 select: ""
+checkbox: ""
+textarea-block: "input-field"
+textarea: "materialize-textarea"
 extraJS: |
     $(document).ready(function(){
         $('select').formSelect();

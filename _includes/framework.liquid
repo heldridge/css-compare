@@ -46,37 +46,86 @@
             <hr class="{{ divider }}">
 
             <h1 class="{{ headerClass }}">Forms</h1>
+            <div class="{{ form }}">
+                <div class="{{ input-block }}">
+                    <label for="exampleInput1" class="{{ label }}">Input</label>
+                    <input type="text" id="exampleInput1" class="{{ input }}">
+                </div>
 
-            <div class="{{ input-block }}">
-                <label for="exampleInput1" class="{{ label }}">Input</label>
-                <input type="text" id="exampleInput1" class="{{ input }}">
+                <select class="{{ select }} layout select">
+                    <option value="0">Select</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+
+                
+                {% if name != "Materialize" %}
+                    <div class="radio layout">
+                        <div class="{{ radio-block }}">
+                            <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioA">
+                            <label class="{{ radio-label }}" for="radioA">Apples</label>
+                        </div>
+                        <div class="{{ radio-block }}">
+                            <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioB">
+                            <label class="{{ radio-label }}" for="radioB">Oranges</label>
+                        </div>
+                        <div class="{{ radio-block }}">
+                            <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioC">
+                            <label class="{{ radio-label }}" for="radioC">Pears</label>
+                        </div>
+                        <div class="{{ radio-block }}">
+                            <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioD">
+                            <label class="{{ radio-label }}" for="radioD">Grapefruit</label>
+                        </div>
+                    </div>
+
+                    <div class="{{ checkbox-block }}">
+                        <label for="checkboxExample" class="{{ checkbox-label }}">Checkbox</label>
+                        <input type="checkbox" class="{{ checkbox }}" id="checkboxExample">
+                    </div>
+
+                {% else %}
+                    <form action="#" class="radio layout">
+                        <p>
+                        <label>
+                            <input name="group1" type="radio" checked />
+                            <span>Apples</span>
+                        </label>
+                        </p>
+                        <p>
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span>Oranges</span>
+                        </label>
+                        </p>
+                        <p>
+                        <label>
+                            <input name="group1" type="radio"  />
+                            <span>Pears</span>
+                        </label>
+                        </p>
+                        <p>
+                        <label>
+                            <input name="group1" type="radio"/>
+                            <span>Grapefruit</span>
+                        </label>
+                        </p>
+                    </form>
+
+                    <label>
+                        <input type="checkbox" />
+                        <span>Checkbox</span>
+                    </label>
+                {% endif %}
+
+                
+                <div class="layout textarea {{ textarea-block }}">
+                    <label for="textareaExample">Text Area</label>
+                    <textarea name="example" id="textareaExample" cols="30" rows="10" class="{{ textarea }}"></textarea>
+                </div>
             </div>
 
-            <select class="{{ select }}">
-                <option value="0">Select</option>
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-            </select>
-
-            <div class="radio layout">
-                <div class="{{ radio-block }}">
-                    <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioA">
-                    <label class="{{ radio-label }}" for="radioA">Apples</label>
-                </div>
-                <div class="{{ radio-block }}">
-                    <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioB">
-                    <label class="{{ radio-label }}" for="radioB">Oranges</label>
-                </div>
-                <div class="{{ radio-block }}">
-                    <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioC">
-                    <label class="{{ radio-label }}" for="radioC">Pears</label>
-                </div>
-                <div class="{{ radio-block }}">
-                    <input type="radio" name="radioExample" checked="" tabindex="0" class="{{ radio-input }}" id="radioD">
-                    <label class="{{ radio-label }}" for="radioD">Grapefruit</label>
-                </div>
-            </div>
         </div>
     </main>
 

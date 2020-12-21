@@ -9,6 +9,7 @@ buttonAlternate: btn-outline-secondary
 divider: ""
 headerClass: ""
 subHeaderClass: ""
+form: ""
 input-block: ""
 input: form-control
 label: form-label
@@ -16,5 +17,10 @@ radio-block: form-check
 radio-input: form-check-input
 radio-label: form-check-label
 select: form-select
+checkbox-block: "form-check"
+checkbox: "form-check-input"
+checkbox-label: "form-check-label"
+textarea-block: "form-group"
+textarea: "form-control"
 extraJS: ""
 ---

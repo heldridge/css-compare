@@ -33,4 +33,15 @@ ul.layout {
 .radio.layout {
     display: flex;
     flex-direction: column;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.layout.select {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.layout.textarea {
+    margin-top: 1rem;
 }

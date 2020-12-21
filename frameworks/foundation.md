@@ -7,6 +7,9 @@ buttonClass: button
 buttonDefault: " "
 buttonAlternate: round
 buttonDisabled: disabled
+divider: ""
+headerClass: ""
+subHeaderClass: ""
 input-block: input-field
 input: ""
 label: ""
