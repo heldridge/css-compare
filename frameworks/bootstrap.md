@@ -23,5 +23,6 @@ checkbox-label: "form-check-label"
 textarea-block: "form-group"
 textarea: "form-control"
 blockquote: "blockquote"
+badge: badge bg-primary
 extraJS: ""
 ---

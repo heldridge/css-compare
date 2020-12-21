@@ -25,6 +25,7 @@ checkbox: ""
 checkbox-label: ""
 textarea-block: ""
 textarea: ""
+badge: "ui blue label"
 extraJS: |
     $('select.dropdown').dropdown();
     $('.ui.radio.checkbox').checkbox();

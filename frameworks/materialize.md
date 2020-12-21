@@ -21,6 +21,7 @@ select: ""
 checkbox: ""
 textarea-block: "input-field"
 textarea: "materialize-textarea"
+badge: new badge
 extraJS: |
     $(document).ready(function(){
         $('select').formSelect();

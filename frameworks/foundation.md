@@ -17,4 +17,5 @@ input: ""
 label: ""
 select: ""
 extraJS: ""
+badge: label
 ---
