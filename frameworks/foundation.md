@@ -19,11 +19,12 @@ select: ""
 extraJS: ""
 badge: label
 switch_html: |
-    <p>Switch</p>
-    <div class="switch">
-        <input class="switch-input" id="exampleSwitch" type="checkbox" name="exampleSwitch">
-        <label class="switch-paddle" for="exampleSwitch">
-            <span class="show-for-sr">Download Kittens</span>
-        </label>
-    </div>
+  <p>Switch</p>
+  <div class="switch">
+      <input class="switch-input" id="exampleSwitch" type="checkbox" name="exampleSwitch">
+      <label class="switch-paddle" for="exampleSwitch">
+          <span class="show-for-sr">Download Kittens</span>
+      </label>
+  </div>
+table: ""
 ---

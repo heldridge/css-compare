@@ -1,71 +1,74 @@
 #nav {
-    line-height: 24px !important;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 16px !important;
-    padding-bottom: 16px !important;
-    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    margin-bottom: 16px !important;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 24px !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  margin-bottom: 16px !important;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #nav > a {
-    text-decoration: none;
-    color: black;
-    font-size: 14px !important;
+  text-decoration: none;
+  color: black;
+  font-size: 14px !important;
 }
 
 #nav > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #nav > a.nav-selected {
-    text-decoration: underline;
-    font-weight: 600;
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 main.layout {
-    display: flex !important;
-    flex-direction: column;
-    padding-left: .5rem;
-    padding-right: .5rem;
-    padding-bottom: 1rem;
+  display: flex !important;
+  flex-direction: column;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1rem;
 }
 
-@media(min-width: 768px) {
-    main.layout {
-        flex-direction: row;
-        justify-content: space-around !important;
-    }
+@media (min-width: 768px) {
+  main.layout {
+    flex-direction: row;
+    justify-content: space-around !important;
+  }
 
-    #nav > a {
-        font-size: 16px !important;
-    }
+  #nav > a {
+    font-size: 16px !important;
+  }
 }
 
-.left-content, .right-content {
-    width: 40%;
+.left-content,
+.right-content {
+  width: 40%;
 }
-
 
 ul.layout {
-    padding: 0;
+  padding: 0;
 }
 
 .radio.layout {
-    display: flex;
-    flex-direction: column;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .layout.select {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .layout.textarea {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
