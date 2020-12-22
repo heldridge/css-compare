@@ -4,12 +4,12 @@ stylesheetSource: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax
 jsSource: |
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-buttonClass: " "
+button: " "
 buttonDefault: waves-effect waves-light btn
 buttonAlternate: waves-effect waves-teal btn-flat
 buttonDisabled: btn disabled
 divider: ""
-headerClass: ""
+header: ""
 do_subheader: false
 form: ""
 input-block: input-field

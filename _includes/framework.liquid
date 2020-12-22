@@ -19,7 +19,7 @@
 
     <main class="layout">
         <div class="left-content">
-            <h2 class="{{ headerClass }}"> Text </h2>
+            <h2 class="{{ header }}"> Text </h2>
 
             <p>
                 This is what text looks like.
@@ -34,16 +34,16 @@
             
             <hr class="{{ divider }}">
 
-            <h1 class="{{ headerClass }}"> First Header </h1>
-            <h2 class="{{ headerClass }}"> Second Header </h2>
-            <h3 class="{{ headerClass }}"> Third Header </h3>
-            <h4 class="{{ headerClass }}"> Fourth Header </h4>
-            <h5 class="{{ headerClass }}"> Fifth Header </h5>
+            <h1 class="{{ header }}"> First Header </h1>
+            <h2 class="{{ header }}"> Second Header </h2>
+            <h3 class="{{ header }}"> Third Header </h3>
+            <h4 class="{{ header }}"> Fourth Header </h4>
+            <h5 class="{{ header }}"> Fifth Header </h5>
 
             <hr class="{{ divider }}">
 
             {% if do_subheader %}
-            <h2 class="{{ headerClass }}">
+            <h2 class="{{ header }}">
                 Header with a Secondary Heading
                 <div class="{{ subheader }}">You can put whatever you want in a subheader</div>
             </h2>
@@ -106,24 +106,24 @@
         </div>
         
         <div class="right-content">
-            <h2 class="{{ headerClass }}">Buttons</h2>
+            <h2 class="{{ header }}">Buttons</h2>
             <ul class="layout">
-                <button class="{{ buttonClass }} {{ buttonDefault }}">
+                <button class="{{ button }} {{ buttonDefault }}">
                     Button
                 </button>
 
-                <button class="{{ buttonClass }} {{ buttonAlternate }}">
+                <button class="{{ button }} {{ buttonAlternate }}">
                     Alternate
                 </button>
 
-                <button class="{{ buttonClass }} {{ buttonDefault }} {{ buttonDisabled }}" disabled>
+                <button class="{{ button }} {{ buttonDefault }} {{ buttonDisabled }}" disabled>
                     Disabled
                 </button>
             </ul>
 
             <hr class="{{ divider }}">
 
-            <h2 class="{{ headerClass }}">Forms</h2>
+            <h2 class="{{ header }}">Forms</h2>
             <div class="{{ form }}">
                 <div class="{{ input-block }}">
                     <label for="exampleInput1" class="{{ label }}">Input</label>

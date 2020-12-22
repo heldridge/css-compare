@@ -4,12 +4,12 @@ stylesheetSource: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sema
 jsSource: |
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-buttonClass: ui button
+button: ui button
 buttonDefault: ui primary
 buttonAlternate: basic
 buttonDisabled: disabled
 divider: ui section divider
-headerClass: ui header
+header: ui header
 do_subheader: true
 subheader: sub header
 form: "ui form"
