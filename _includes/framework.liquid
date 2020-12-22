@@ -9,7 +9,7 @@
     <script async defer data-domain="css-compare.crooked-ticket.com" src="https://analytics.crooked-ticket.com/js/plausible.js"></script>
 </head>
 <body>
-    <div id="nav">
+    <div id="nav" class="reset">
         {%- for framework in collections.frameworks -%}
             <a href="{{ framework.url }}" {% if framework.data.name == name %}class="nav-selected"{% endif %}>
                 {{ framework.data.name }}
@@ -221,6 +221,13 @@
     <script>
     {{ extraJS }}
     </script>
+
+    {% comment %} <hr class="{{ divider }}"> {% endcomment %}
+    <footer class="reset">
+        <p>
+        Check out the source on <a href="https://github.com/heldridge/css-compare"><b>Github</b></a>
+        </p>
+    </footer>
 
 </body>
 </html>
