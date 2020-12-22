@@ -6,26 +6,26 @@ jsSource: |
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 buttonClass: " "
 buttonDefault: waves-effect waves-light btn
-buttonPrimary: waves-effect waves-light btn
 buttonAlternate: waves-effect waves-teal btn-flat
 buttonDisabled: btn disabled
 divider: ""
 headerClass: ""
 do_subheader: false
-
 form: ""
 input-block: input-field
 input: ""
 label: ""
 select: ""
+radio-block: ""
+radio-input: ""
+radio-label: ""
+checkbox-block: ""
 checkbox: ""
+checkbox-label: ""
 textarea-block: "input-field"
 textarea: "materialize-textarea"
+blockquote: ""
 badge: new badge
-extraJS: |
-  $(document).ready(function(){
-      $('select').formSelect();
-  });
 switch_html: |
   <p>Switch</p>
   <div class="switch">
@@ -37,4 +37,8 @@ switch_html: |
       </label>
   </div>
 table: ""
+extraJS: |
+  $(document).ready(function(){
+      $('select').formSelect();
+  });
 ---

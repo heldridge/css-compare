@@ -10,8 +10,8 @@ buttonAlternate: basic
 buttonDisabled: disabled
 divider: ui section divider
 headerClass: ui header
-subheader: sub header
 do_subheader: true
+subheader: sub header
 form: "ui form"
 input-block: ui labeled input
 input: ""
@@ -26,11 +26,13 @@ checkbox-label: ""
 textarea-block: ""
 textarea: ""
 badge: "ui blue label"
+switch-block: ui toggle checkbox
+switch-input: ""
+switch-label: ""
+table: ui celled table unstackable
+message: ui message
 extraJS: |
   $('select.dropdown').dropdown();
   $('.ui.radio.checkbox').checkbox();
   $('.ui.checkbox').checkbox();
-switch-block: ui toggle checkbox
-table: ui celled table unstackable
-message: ui message
 ---
