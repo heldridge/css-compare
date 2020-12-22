@@ -31,5 +31,6 @@ extraJS: |
   $('.ui.radio.checkbox').checkbox();
   $('.ui.checkbox').checkbox();
 switch-block: ui toggle checkbox
-table: "ui celled table"
+table: ui celled table unstackable
+message: ui message
 ---

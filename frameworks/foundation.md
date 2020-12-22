@@ -27,4 +27,5 @@ switch_html: |
       </label>
   </div>
 table: ""
+message: callout
 ---

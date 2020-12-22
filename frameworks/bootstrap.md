@@ -29,4 +29,5 @@ switch-block: form-check form-switch
 switch-input: form-check-input
 switch-label: form-check-label
 table: "table"
+message: alert alert-primary
 ---
