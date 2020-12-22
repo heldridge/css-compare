@@ -15,10 +15,6 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   margin-bottom: 16px !important;
-  /* Turn on for sticky header */
-  /* position: fixed;
-  background-color: #ffffff;
-  z-index: 9999; */
 }
 
 #nav > a {
@@ -37,8 +33,6 @@
 }
 
 main.layout {
-  /* Turn on for sticky header */
-  /* padding-top: 64px; */
   display: flex !important;
   flex-direction: column;
   padding-left: 8px;
